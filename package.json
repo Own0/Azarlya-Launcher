@@ -1,13 +1,13 @@
 {
     "name": "Azarlya",
     "preductname": "Azarlya Launcher",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Launcher Minecraft d'Azarlya",
     "main": "src/app.js",
     "author": "Owno/Luuxis/Riptiaz",
     "settings": "https://panelmc.azarlya.com",
     "engines": {
-        "node": "16.x.x"
+        "node": "20.x.x"
     },
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
