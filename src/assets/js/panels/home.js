@@ -24,6 +24,7 @@ class Home {
         this.initLaunch();
         this.initStatusServer();
         this.initBtn();
+        this.initLinks();
     }
 
     async initNews() {
@@ -237,6 +238,14 @@ class Home {
             serverMs.innerHTML = `<span class="red">Hors ligne</span>`;
         }
     }
+
+    initLinks(){
+        let status = document.querySelector(".status");
+        status.addEventListener("click", () => {
+            require('electron').shell.openExternal("https://statut.azarlya.com/status/minecraft");
+        });
+
+      }
 
     initBtn() {
         let settings_url = pkg.user ? `${pkg.settings}/${pkg.user}` : pkg.settings

@@ -140,7 +140,7 @@ class Login {
         const azauth = this.config.azauth;
         const newuserurl = `${azauth}/user/register`;
         this.newuser = document.querySelector(".new-user");
-        this.newuser.innerHTML = "Pas de compte ?";
+        this.newuser.innerHTML = "Inscription";
         this.newuser.setAttribute("href", newuserurl);
 
         const passwordreseturl = `${azauth}/user/password/reset`;

@@ -100,3 +100,8 @@
     font-family: "Icons";
     content: "\e90a";
 }
+
+.icon-external-link:after { 
+    font-family: "Icons"; 
+    content: "\e910"; 
+}

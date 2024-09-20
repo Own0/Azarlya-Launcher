@@ -23,6 +23,14 @@ img {
     opacity: 0;
 }
 
+@keyframes spin3D {
+    from { transform: rotateY(0deg) }
+    to { transform: rotateY(360deg) }
+}
+  .splash { animation: spin3D 3s ease-in-out infinite;
+    margin: -1em -4.5em;
+}
+
 .splash.opacity {
     opacity: 1;
 }

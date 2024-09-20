@@ -132,12 +132,16 @@
     cursor: pointer;
     color: #fff;
     text-decoration: none;
+    font: normal normal bold 14px/29px Poppins;
 }
 
 .new-user {
+    position: fixed;
     cursor: pointer;
     color: #fff;
     text-decoration: none;
+    font: normal normal bold 14px/29px Poppins;
+    margin: 0em 40px;
 }
 .login-btn-2f {
     border-radius: 15px;
@@ -173,3 +177,47 @@
 .cancel-2f:hover {
     color: #373737;
 } 
+.logologin {
+    position: absolute;
+    left: 50%; 
+    top: -3%; 
+    transform: translate(-50%, -50%); 
+    background-image: url("../../images/logo.png");
+    width: 95px;
+    height: 100px;
+}
+.logologging {
+    position: absolute;
+    left: 46%; 
+    top: -130%;
+    background-image: url("../../images/logo.png");
+    width: 95px;
+    height: 100px;
+}
+.logologging:hover{
+    -webkit-animation: spin 5s infinite;
+     animation: spin 5s infinite;
+  }
+  
+  @-webkit-keyframes spin{
+    from {
+      -webkit-transform: rotateY(0deg);
+    }
+    to {
+      -webkit-transform: rotateY(-360deg);
+    }
+  }
+  
+  @keyframes spin{
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+    
+    to {
+      -moz-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg);
+    }
+  }
