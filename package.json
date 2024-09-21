@@ -1,7 +1,7 @@
 {
     "name": "Azarlya",
     "preductname": "Azarlya Launcher",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Launcher Minecraft d'Azarlya",
     "main": "src/app.js",
     "author": "Owno/Luuxis/Riptiaz",
